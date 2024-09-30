@@ -60,8 +60,6 @@ public class Order implements Serializable {
 		this.moment = moment;
 	}
 	
-	
-
 	public OrderStatus getOrderStatus() {
 		return OrderStatus.valueOf(orderStatus);
 	}
