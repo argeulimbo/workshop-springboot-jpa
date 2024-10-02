@@ -1,7 +1,5 @@
 package com.lintspring.course.entities.enums;
 
-import org.hibernate.query.NativeQuery.ReturnableResultNode;
-
 public enum OrderStatus {
 	
 	WAITING_PAYMENT(1),
